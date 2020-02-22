@@ -12,7 +12,7 @@ print(employees.status_code)
 
 # Extracting the TEXT from the API
 data = employees.text
-parsed = json.loads(data)
+parsed = json.loads(data) # Parsing the text with json loads as string
 # print(data)
 
 # extracting the NAMES
@@ -64,7 +64,7 @@ def employee6():
 
 
 # LOADS for a string
-parsed = json.loads(data)
+# parsed = json.loads(data)
 
 app = Tk()
 app.title("Personnel List")
